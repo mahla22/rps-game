@@ -1,0 +1,42 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(240, 67%, 84%);
+}
+.choices button{ 
+    width: 100px;
+    background-color: hsl(214, 63%, 57%);
+    font-size: 4rem;
+    margin: 50px 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.choices button:hover {
+    background-color: hsl(214, 63%, 62%);
+}
+.scores{
+    margin: 40px 0px;
+}
+#displayResult{
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0;
+}
+.spanStyle{
+    font-weight:bold ;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: rgb(7, 54, 119);
+}

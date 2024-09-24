@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="choices">
+      <button onclick="game('rock')">👊</button>
+      <button onclick="game('paper')">✋</button>
+      <button onclick="game('scissors')">✌</button>
+    </div>
+    <div class="displayChoices">
+      <div id="displayUserChoice"></div>
+      <div id="displayComputerChoice"></div>
+      <div id="displayResult"></div>
+    </div>
+    <div class="scores">
+      <div>
+        your Score:
+        <span id="displayUserScore" class="spanStyle">0</span>
+      </div>
+      <div>
+        computer's score:
+        <span id="displayComputerScore" class="spanStyle">0</span>
+      </div>  
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
